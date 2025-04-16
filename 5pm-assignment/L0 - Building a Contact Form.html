@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <h1>Contact Information</h1>
+    <fieldset>
+        <br>
+    <form>
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" id="name" required/>
+        </div>
+        <br>
+        <div>        
+            <label for="email">E-mail: </label>
+            <input type="email" id="email" required/>
+        </div>
+        <br>
+        <fieldset>
+            <legend>gender</legend>
+            <select name="gender">
+                <option value="">--Please choose an option--</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>message</legend>
+            <textarea id="mess" rows="6" cols="50"></textarea>
+        </fieldset>
+    <br>
+    <br> 
+     <button type="submit">Submit</button> 
+
+    </form>
+</fieldset>
+</body>
+</html>

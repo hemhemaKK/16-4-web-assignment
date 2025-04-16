@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+header{
+    background: linear-gradient(to top, #2fb5d3, #022664);
+    padding: .75rem 6.5rem;
+    color: white;
+    margin-bottom : 40px;
+}
+.navbar{
+  align-items: center;
+  margin-top : 20px;
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+    margin : 10px;
+}
+section{
+    padding-left: 300px;
+}
+
+footer{
+    background: linear-gradient(to top, #2fb5d3, #022664);
+    height: 15px;
+}
+</style>
+<body>
+   
+    <header>
+    <center>
+        <h1> My Portfolio</h1>
+        <nav class="navbar">
+            <a href="#"><b>Home</b> </a>
+            <a href="#"> <b>About</b> </a>
+            <a href="#"> <b>Projects</b> </a>
+            <a href="#"> <b>Contact</b> </a>
+        </nav>
+    </center>
+    </header>
+
+        <section>
+            <h2 align="left">Welcome to My Portfolio</h2>
+            <br>
+            <p>This portfolio showcase my projects and provides information about my backgroud and contact details.</p>
+        </section><br><br>
+        <section>
+            <h2 align="left">About</h2>
+            <br>
+            <p>Hello!, I;m a web developer passionate about building dynamic and responsive websites. I enjoy creating user-<br>
+            friendly interaces and working on challenging projects.</p>
+        </section>
+        <br><br>
+        <section>
+            <h2 align="left">Projects</h2>
+            <br>
+            <table border="1" >
+                <thead bgcolor="darkblue" style="color: white; padding:10px;">
+                    <th> Project Name </th>
+                    <th> Description </th>
+                    <th> Year </th>
+                </thead>
+
+                <tr>
+                    <td > Project Alpha </td>
+                    <td> A personal website showcasing my work and skills as a web developer. </td>
+                    <td> 2023 </td>
+                </tr>
+
+                <tr>
+                    <td> Portfolio Site </td>
+                    <td> A web-based tool for tracking project progress and managing tasks. </td>
+                    <td> 2024 </td>              
+                </tr>
+            </table>
+        </section>
+        <br><br>
+        <section>
+            <h2>Contact</h2>
+            <legend>Name:</legend>
+            <input type="text" />
+
+            <legend>Email:</legend>
+            <input type="email" />
+        
+            <legend>message</legend>
+            <textarea id="mess" rows="4" cols="20"></textarea>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </section>
+        <br>
+   
+    <footer></footer> 
+
+</body>
+</html>
